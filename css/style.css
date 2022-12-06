@@ -1,22 +1,118 @@
-.container{
-    display: grid;
-    grid-template-areas: "header" "nav" "section";
+*{
+    margin: 0;
+    padding: 0;
 }
+
+.container{
+    width: 100vw;
+    height: 300vh;
+
+    display: grid;
+    grid-template-rows: 2.5% 1.5% 30% auto 30% 5%;
+    grid-template-areas: 
+        "header"
+        "menu"
+        "section1"
+        "section2"
+        "section3"
+        "footer"
+}
+
 
 .header{
-    background-color: rgb(255, 203, 140);
+
+    display: flex;
     grid-area: header;
-}
-
-.nav_menu{
-    background-color: aquamarine;
-    grid-area: nav;
-}
-
-.first_section{
-    background-color: grey;
-    grid-area: section;
-   
+    background: #fee1a1;
+    justify-content: center;
+    padding: 0px;
     
     
+}
+
+#header1{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#giraff_logga{
+    padding: 3px;
+}
+
+.menu{
+
+    grid-area: menu;
+    background: #baad9f ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    padding: 12px 260px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.menu a:hover{
+    background-color: gray;
+    color: white;
+}
+
+
+#section_1{
+
+    text-align: center;
+    font: caption;
+    color: white;
+    grid-area: section1;
+    background: #68b6ef;
+    padding: 22%;
+}
+
+#section_2{
+
+    text-align: center;
+    font: caption;
+    color: white;
+    grid-area: section2;
+    background: #6e78ff;
+    padding: 22%;
+}
+ 
+#section_2{
+
+    text-align: center;
+    font: caption;
+    color: white;
+    grid-area: section2;
+    background: #ff7477 ;
+    padding: 22%;
+}
+
+#section_3{
+
+    text-align: center;
+    font: caption;
+    color: white;
+    grid-area: section3;
+    background: #f68c70;
+    padding: 22%;
+}
+
+.footer{
+    text-align: center;
+    font: caption;
+    color: white;
+    grid-area: footer;
+    background: lightsalmon;
+    padding: 3%;
 }
