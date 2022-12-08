@@ -48,19 +48,19 @@
     grid-area: menu;
     background: #baad9f ;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
 }
 
-.menu a{
+ .menu a{
     font-weight:bold;
     text-decoration: none;
     font-size: 20px;
     font-family: sans-serif;
     color: white;
-    padding: 12px 260px;
     letter-spacing: 1px;
     text-transform: uppercase;
-}
+    padding: 12px;
+} 
 
 .menu a:hover{
     background-color: gray;
@@ -78,26 +78,46 @@
     padding: 22%;
 }
 
-#section_2{
-
-    text-align: center;
-    font: caption;
-    color: white;
-    grid-area: section2;
-    background: #6e78ff;
-    padding: 22%;
-}
- 
-#section_2{
-
-    text-align: center;
-    font: caption;
-    color: white;
-    grid-area: section2;
-    background: #ff7477 ;
-    padding: 22%;
+#giraff_bild_1{
+    margin: -1000px;
+    padding-bottom: 33.15%;
 }
 
+#section_2{
+
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #6a2f1b;
+    grid-area: section2;
+    background: whitesmoke;
+    padding: 22%;
+    order: 0;
+}
+
+#section_2 p{
+    color: #411d11;
+    font-size: smaller;
+    margin: 10px;
+    padding-top: 30px;
+    font-weight: lighter
+}
+
+.image_container{
+    grid-area: section2;
+    order: 1;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#giraff_bakround_art{
+    order: 2;
+    margin: 0px;
+    padding: 0px;
+}
 #section_3{
 
     text-align: center;
