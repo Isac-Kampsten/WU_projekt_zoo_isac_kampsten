@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+
+body{
+    overflow-x: hidden;
+}
+
 .container{
     width: 100vw;
     height: 300vh;
