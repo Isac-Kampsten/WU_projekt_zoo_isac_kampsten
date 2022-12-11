@@ -49,14 +49,15 @@ body{
 }
 
 .menu{
-
+    position: sticky;
+    top: 0px;
     grid-area: menu;
     background: #baad9f ;
     display: flex;
     justify-content:space-around;
 }
 
- .menu a{
+.menu a{
     font-weight:bold;
     text-decoration: none;
     font-size: 20px;
@@ -124,20 +125,64 @@ body{
     padding: 0px;
 }
 #section_3{
-
+    font-weight: bold;
     text-align: center;
-    font: caption;
-    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #6a2f1b;
     grid-area: section3;
-    background: #f68c70;
-    padding: 22%;
+    background: whitesmoke;
+    padding: 18%;
+}
+
+#section_3 p{ 
+    color: #411d11;
+    font-size: 30px;
+    font-weight: lighter;
+    white-space: pre-line;
+}
+
+
+.image_container2{
+    grid-area: section3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 109px;
+    margin: 0px;
+    order: 1;
+}
+
+#backround_image_section3{
+    margin: 0;
+    padding-bottom: 0px;
+    order: 2;
 }
 
 .footer{
+    grid-area: footer;
     text-align: center;
     font: caption;
     color: white;
-    grid-area: footer;
-    background: lightsalmon;
-    padding: 3%;
+    background: #baad9f;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+.footer a{
+    font-weight:bold;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 12px;
+} 
+
+.footer a:hover{
+    background-color: gray;
+    color: white;
 }
