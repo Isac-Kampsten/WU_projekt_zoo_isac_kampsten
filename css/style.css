@@ -137,7 +137,7 @@ body{
 
 #section_3 p{ 
     color: #411d11;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: lighter;
     white-space: pre-line;
 }
@@ -148,7 +148,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 109px;
+    padding-bottom: 8.7%;
     margin: 0px;
     order: 1;
 }
