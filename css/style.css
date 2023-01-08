@@ -46,19 +46,58 @@ body{
 
 .card{
     background-color: #baad9f;
-    border-radius: 30px;
+    border-radius: 10px;
     height: 450px; 
     width: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0px;
     
+
 }
+
+.cardHeader{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 125px; 
+    width: 350px;
+    background: #fee1a1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cardInfoholder{
+    background-color: rgb(133, 112, 95);
+    height: 325px; 
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card_h2{
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.card_paragraph{
+    font-weight: normal;
+    font-size: 25px;
+    margin: 20px;
+    padding-top: 10px;  
+}
+
+#card_image_1{
+    padding-top: 120px;
+}
+
 
 #AnimalPageCardHolder{
     grid-area: rest;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(70, 70, 70);
     color: white;
     font: caption;
     display: flex;
@@ -89,6 +128,7 @@ body{
     padding-top: 22px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    padding-bottom: 20px;
 }
 
 #headerPage2 a::after{
